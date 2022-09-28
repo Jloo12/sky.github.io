@@ -1,5 +1,13 @@
+:root{
+	--bili:0.027rem;	
+}
+.header{
+	height:calc(var(--bili) * 80);
+}
+
 body{
     background-color: black;
+    width:100%;
 }
 
 h3{
